@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Browser Frame Mockup -->
+  <g transform="translate(60, 50)">
+    <rect width="680" height="400" rx="10" fill="#0b1120" stroke="#334155" stroke-width="1.5"/>
+    <!-- Browser Top Bar -->
+    <path d="M 0 10 Q 0 0 10 0 L 670 0 Q 680 0 680 10 L 680 40 L 0 40 Z" fill="#152033"/>
+    <circle cx="25" cy="20" r="5" fill="#ef4444" opacity="0.8"/>
+    <circle cx="42" cy="20" r="5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="59" cy="20" r="5" fill="#10b981" opacity="0.8"/>
+    <rect x="90" y="11" width="300" height="18" rx="5" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    
+    <!-- Hero Mock Content inside Browser -->
+    <rect x="40" y="75" width="280" height="24" rx="4" fill="url(#accentGrad)"/>
+    <rect x="40" y="115" width="340" height="12" rx="3" fill="#64748b"/>
+    <rect x="40" y="135" width="290" height="12" rx="3" fill="#475569"/>
+    
+    <rect x="40" y="170" width="120" height="36" rx="6" fill="#38bdf8"/>
+    <rect x="175" y="170" width="110" height="36" rx="6" fill="transparent" stroke="#475569" stroke-width="1.5"/>
+    
+    <!-- Visual side card -->
+    <rect x="420" y="75" width="220" height="190" rx="8" fill="#152033" stroke="#334155" stroke-width="1"/>
+    <circle cx="470" cy="120" r="20" fill="#38bdf8" opacity="0.2"/>
+    <rect x="505" y="112" width="105" height="14" rx="3" fill="#cbd5e1"/>
+    <rect x="445" y="160" width="170" height="10" rx="2" fill="#475569"/>
+    <rect x="445" y="180" width="140" height="10" rx="2" fill="#334155"/>
+    <rect x="445" y="210" width="80" height="26" rx="4" fill="#1e293b"/>
+    
+    <!-- Bottom Grid Mockup -->
+    <rect x="40" y="295" width="180" height="75" rx="6" fill="#152033" stroke="#334155" stroke-width="1"/>
+    <rect x="250" y="295" width="180" height="75" rx="6" fill="#152033" stroke="#334155" stroke-width="1"/>
+    <rect x="460" y="295" width="180" height="75" rx="6" fill="#152033" stroke="#334155" stroke-width="1"/>
+  </g>
+</svg>
